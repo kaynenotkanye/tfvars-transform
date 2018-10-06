@@ -10,7 +10,7 @@ appname_ami_id = "ami-abcd1234"
 
 Example usage:
 ```
-tfvars-transform -f terraform.tfvars -k appname_ami_id -v ami-myNewAmiIdabcd
+tfvars-transform -f terraform.tfvars -k appname_ami_id -v ami-mynewamid
 ```
 
 Resulting terraform.tfvars (Notice that the utility will only update the value of the specified key passed through the -k flag):
